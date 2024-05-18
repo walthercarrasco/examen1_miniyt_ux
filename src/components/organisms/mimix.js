@@ -1,7 +1,7 @@
 import React from "react";
 import VerificaPantalla from "../verificaPantalla";
 
-const Recomendaciones = () => {
+const MiMix = () => {
 
     const linksVideo = [
         "https://i.ytimg.com/vi/gSMYGP0TYC4/maxresdefault.jpg"
@@ -32,4 +32,4 @@ const Recomendaciones = () => {
     );
 }
 
-export default Recomendaciones;
+export default MiMix;

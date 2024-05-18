@@ -20,19 +20,67 @@
 
 .seccionVideo h2{
     color: white;
-    font-size: 100%;
+    font-size: 1.5em;
     margin: 0;
 }
 
+
+
+/*
+Pantallas de 1100 en adelante
+*/
+#pantalla1100 li{
+    width: 24.5%;
+}
+
+.seccionVideo #pantalla1100 h3{
+    font-size: 110%;
+}
+
+#pantalla1100 .informacionVideo {
+    font-size: 90%;
+}
+
+
+/*
+Pantallas de 800 en adelante
+*/
+#pantalla800 li{
+    width: 33%;
+}
+
+.seccionVideo #pantalla800 h3{
+    font-size: 80%;
+}
+
+#pantalla800 .informacionVideo {
+    font-size: 70%;
+}
+
+
+/*
+Pantallas de 500 en adelante
+*/
+#pantalla500 li{
+    width: 49.5%;
+}
+
+.seccionVideo #pantalla500 h3{
+    font-size: 70%;
+}
+
+#pantalla500 .informacionVideo {
+    font-size: 60%;
+}
+
+
 .seccionVideo h3{
     color: white;
-    font-size: 80%;
     margin: 1px;
 }
 
 .informacionVideo {
     color: #b8b6b6;
-    font-size: 70%;
     margin: 1px;
 }
 
@@ -54,18 +102,6 @@
     margin: 1px;
 }
 
-#pantalla1100 li{
-    width: 24.5%;
-}
-
-#pantalla800 li{
-    width: 33%;
-}
-
-#pantalla500 li{
-    width: 49.5%;
-}
-
 
 .video {
     width: 100%;
@@ -81,9 +117,12 @@
     width: 15%;
 }
 
-.infoVideo h3, p {
-    margin-right: 10%;
-    margin-left: 1px;
+.infoVideo h3{
+    margin-left: 7px;
+}
+
+.infoVideo p{
+    margin-left: 7px;
 }
 
 .imagevideo {

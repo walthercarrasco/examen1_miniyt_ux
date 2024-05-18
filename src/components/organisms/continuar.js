@@ -1,7 +1,7 @@
 import React from "react";
 import VerificaPantalla from "../verificaPantalla";
 
-const Recomendaciones = () => {
+const ContinuarViendo = () => {
 
     const linksVideo = [
         "https://i.ytimg.com/vi/gSMYGP0TYC4/maxresdefault.jpg"
@@ -26,10 +26,10 @@ const Recomendaciones = () => {
 
     return (
         <div className="seccionVideo">
-            <h2>Recomendaciones</h2>
+            <h2>Continuar Viendo</h2>
             <VerificaPantalla linksVideo={linksVideo} linksCanales={linksCanales} titlev={titulos} nombrecanal={nombresCanales} fecha={fechas} />
         </div>
     );
 }
 
-export default Recomendaciones;
+export default ContinuarViendo;
