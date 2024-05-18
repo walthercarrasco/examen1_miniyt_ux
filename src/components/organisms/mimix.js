@@ -26,7 +26,7 @@ const MiMix = () => {
 
     return (
         <div className="seccionVideo">
-            <h2>Recomendaciones</h2>
+            <h2>Mi Mix</h2>
             <VerificaPantalla linksVideo={linksVideo} linksCanales={linksCanales} titlev={titulos} nombrecanal={nombresCanales} fecha={fechas} />
         </div>
     );

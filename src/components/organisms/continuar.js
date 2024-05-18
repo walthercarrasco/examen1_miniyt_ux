@@ -4,24 +4,24 @@ import VerificaPantalla from "../verificaPantalla";
 const ContinuarViendo = () => {
 
     const linksVideo = [
-        "https://i.ytimg.com/vi/gSMYGP0TYC4/maxresdefault.jpg"
+        "https://i.ytimg.com/vi/ro9_laKaPpE/maxresdefault.jpg"
     ];
 
 
     const linksCanales = [
-        "https://i.scdn.co/image/ab676161000051749ad50e478a469448c6f369df"
+        "https://i.scdn.co/image/ab67616d00001e026e5c5f1a2de0f26b481faf05"
     ];
 
     const titulos = [
-        "BAD BUNNY x MORA - UNA VEZ | YHLQMDLG (Video Oficial)"
+        "J Alvarez, Ñejo & Dalmata - Sexo Sudor y Calor [Video Oficial]"
     ];
 
     const nombresCanales = [
-        "Bad Bunny"
+        "J Alvarez"
     ];
 
     const fechas = [
-        "237 M de vistas • hace 3 años"
+        "176 M de vistas • hace 11 años"
     ];
 
     return (
