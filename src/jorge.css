@@ -1,0 +1,16 @@
+.logo {
+    width: 100px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.header {
+    background-color: red;
+}
+
+.header .left{
+    display: flex;
+    align-items: center;
+}
