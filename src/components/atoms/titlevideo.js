@@ -1,6 +1,6 @@
 const TitleVideo = ({title}) => {
     return (
-        <h2 className="titlevideo">{title}</h2>
+        <h3 className="titlevideo">{title}</h3>
     );
 }
 
