@@ -1,10 +1,5 @@
 import React from "react";
 import '../../BarraLateral.css'
-import { GoHomeFill,GoClock,GoVideo } from "react-icons/go";
-import { SiYoutubeshorts } from "react-icons/si";
-import { MdSubscriptions,MdHistory,MdOutlinePlaylistPlay,MdSwitchAccount  } from "react-icons/md";
-import { AiFillLike } from "react-icons/ai";
-import { FaCut } from "react-icons/fa";
 
 import img1 from "../../images/ocho.jpg";
 import img2 from "../../images/adrian.jpg";
@@ -27,20 +22,30 @@ import SideBarOptionSubs from "../molecules/SideBarOptionSubs";
 const BarraLateral = () => {
     return(
         <div className="sidebar">
-            <SideBarOption title="Principal" imagen={home}/>
-            <SideBarOption title="Shorts" imagen={shorts}/>
-            <SideBarOption title="Suscripciones" imagen={suscripcion}/>
+
+            <div className="desk">
+                <SideBarOption title="Principal" imagen={home}/>
+                <SideBarOption title="Shorts" imagen={shorts}/>
+                <SideBarOption title="Suscripciones" imagen={suscripcion}/>
+            </div>
 
             <hr class="seperator"/>
+            <h3 className="names">Tu {'>'}</h3>
+            
+            <div className="desk">
+                <SideBarOption title="Tu canal" imagen={user}/>
+            </div>
 
-            <SideBarOption title="Tu canal" imagen={user}/>
+            <div className="Tu">
             <SideBarOption title="Historial" imagen={historial}/>
             <SideBarOption title="Playlists" imagen={playList}/>
             <SideBarOption title="Tus videos" imagen={video}/>
             <SideBarOption title="Ver mas tarde" imagen={clock}/>
             <SideBarOption title="Videos que me gus..." imagen={like}/>
+            </div>
 
             <hr class="seperator"/>
+            <h3 className="names">Suscripciones</h3>
 
             <SideBarOptionSubs title="8cho" imagen={img1}/>
             <SideBarOptionSubs title="Adrian Saenz" imagen={img2}/>

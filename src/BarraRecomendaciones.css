@@ -1,13 +1,13 @@
 .filters{
     position: fixed;
     left: 250px; /*Espacio de la izquierda*/
-    top: 70px; /*Espacio de arriba*/
+    top: 60px; /*Espacio de arriba*/
     width: calc(100% - 250px);
     height: 60px;
     background: white;
     /* border-top: 1px solid #dbdbdb; */
     /* border-bottom: 1px solid #dbdbdb; */
-    padding: 0 20px;
+    /* padding: 0 20px; */
     display: flex;
     align-items: center;
     overflow-x: auto;
@@ -26,7 +26,29 @@
     color: white;
     font-size: 15px;
     cursor: pointer;
-    background-color: #1f1f1f;
+    background-color: #353535;
     font-weight: bold;
-    
+}
+
+.filter-options:hover{
+        background: #4d4d4d;
+        cursor: pointer;
+        border-radius: 50px;
+}
+
+.filters::-webkit-scrollbar{
+    height: 4px;
+    background: gray;
+}
+
+.filters::-webkit-scrollbar-thumb:hover{
+    background: red;
+}
+
+/* Responsive */
+@media all and (max-width:900px){
+    .filters{
+        left: 170px;
+        width: 100%;
+    }
 }

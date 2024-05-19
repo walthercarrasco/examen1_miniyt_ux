@@ -4,7 +4,7 @@ import {AiOutlineSearch} from "react-icons/ai"
 
 const IconoBusqueda3 = () => {
     return (
-        <div className="icons">
+        <div className="icons busqueda3">
             <AiOutlineSearch/>
         </div>
     );

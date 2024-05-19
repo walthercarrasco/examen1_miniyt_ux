@@ -4,14 +4,17 @@
 
 .logo img {
     width: 110px;
-    height: 70px;
+    height: 60px;
 }
 
 .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     height: 60px;
     /* background-color: #141414; */
     background: #141414;
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,11 +23,11 @@
     z-index: 1000;
 }
 
-@media all and (min-width:900px){
+/* @media all and (min-width:900px){
     .header{
-        padding: 5px 10px;
+        padding: 5px;
     }
-}
+} */
 
 .header .left{
     display: flex;
@@ -42,12 +45,24 @@
     font-size: 20px;
     cursor: pointer;
     color: white;
+    margin-left: 15px;
 }
 
 .header .menuBtn:hover{
     background-color: #3a3a3a;
 }
 
+.header .busqueda3:hover{
+    background-color: #3a3a3a;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.header .desktop:hover{
+    background-color: #3a3a3a;
+    border-radius: 40px;
+    cursor: pointer;
+}
 
 /* middle header */
 .inputSearchBox{
@@ -119,7 +134,7 @@
 }
 
 .searchIconFixed:hover{
-    background-color: #141414;
+    background-color: #3a3a3a;
     cursor: pointer;
 }
 
@@ -171,6 +186,7 @@
     background-color: #d3d1d1;
     border-radius: 40px;
     overflow: hidden;
+    margin-right: 10px;
 }
 
 @media all and (max-width:900px){
@@ -183,5 +199,12 @@
     }
     .header{
         box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+    }
+}
+
+/*  */
+@media all and (min-width: 901px) {
+    .header .busqueda3{
+        display: none;
     }
 }
