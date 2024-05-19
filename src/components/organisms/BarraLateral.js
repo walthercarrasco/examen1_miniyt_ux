@@ -21,78 +21,32 @@ import playList from "../../images/lista.png";
 import video from "../../images/jugar.png";
 import clock from "../../images/reloj.png";
 import like from "../../images/boton-me-gusta.png";
+import SideBarOption from "../molecules/SideBarOption";
+import SideBarOptionSubs from "../molecules/SideBarOptionSubs";
 
 const BarraLateral = () => {
     return(
         <div className="sidebar">
-            <a className="links">
-                <img src={home} alt="home"/>
-                Principal
-            </a>
-            <a className="links">
-                <img src={shorts} alt="home"/>
-                Shorts
-            </a>
-            <a className="links">
-            <img src={suscripcion} alt="home"/>
-                Suscripciones
-            </a>
+            <SideBarOption title="Principal" imagen={home}/>
+            <SideBarOption title="Shorts" imagen={shorts}/>
+            <SideBarOption title="Suscripciones" imagen={suscripcion}/>
 
             <hr class="seperator"/>
 
-            <div className="text-side">
-                <h3>Tu</h3>
-            </div>
-
-            <a className="links">
-                <img src={user} alt="user"/>
-                Tu canal
-            </a>
-            <a className="links">
-                <img src={historial} alt=""/>
-                Historial
-            </a>
-            <a className="links">
-                <img src={playList} alt=""/>
-                Playlists
-            </a>
-            <a className="links">
-                <img src={video} alt=""/>
-                Tus videos
-            </a>
-            <a className="links">
-                <img src={clock} alt=""/>
-                Ver más tarde
-            </a>
-            <a className="links">
-                <img src={like} alt=""/>
-                Videos que me gus...
-            </a>
+            <SideBarOption title="Tu canal" imagen={user}/>
+            <SideBarOption title="Historial" imagen={historial}/>
+            <SideBarOption title="Playlists" imagen={playList}/>
+            <SideBarOption title="Tus videos" imagen={video}/>
+            <SideBarOption title="Ver mas tarde" imagen={clock}/>
+            <SideBarOption title="Videos que me gus..." imagen={like}/>
 
             <hr class="seperator"/>
 
-            <a className="subs">
-                <img src={img1} alt=""/>
-                8cho
-            </a>
-            <a className="subs">
-                <img src={img2} alt=""/>
-                Adrain Saenz
-            </a>
-            <a className="subs">
-                <img src={img3} alt=""/>
-                Alex Hernandez
-            </a>
-            <a className="subs">
-                <img src={img4} alt=""/>
-                Alex Meyers
-            </a>
-            <a className="subs">
-                <img src={img5} alt=""/>
-                ANGELA Yelin
-            </a>
-
-
+            <SideBarOptionSubs title="8cho" imagen={img1}/>
+            <SideBarOptionSubs title="Adrian Saenz" imagen={img2}/>
+            <SideBarOptionSubs title="Alex Hernandez" imagen={img3}/>
+            <SideBarOptionSubs title="Alex Meyers" imagen={img4}/>
+            <SideBarOptionSubs title="ANGELA Yelin" imagen={img5}/>
         </div>
     );
 }
