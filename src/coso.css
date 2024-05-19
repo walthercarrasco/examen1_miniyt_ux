@@ -30,7 +30,7 @@
 Pantallas de 1100 en adelante
 */
 #pantalla1100 li{
-    width: 24.5%;
+    width: 24%;
 }
 
 .seccionVideo #pantalla1100 h3{
@@ -46,7 +46,7 @@ Pantallas de 1100 en adelante
 Pantallas de 800 en adelante
 */
 #pantalla800 li{
-    width: 33%;
+    width: 32%;
 }
 
 .seccionVideo #pantalla800 h3{
@@ -62,7 +62,7 @@ Pantallas de 800 en adelante
 Pantallas de 500 en adelante
 */
 #pantalla500 li{
-    width: 49.5%;
+    width: 47%;
 }
 
 .seccionVideo #pantalla500 h3{
@@ -99,35 +99,29 @@ Pantallas de 500 en adelante
     list-style-type: none;
     display: inline-block;
     padding: 0;
-    margin: 1px;
+    margin: 5px;
 }
 
 
 .video {
     width: 100%;
-    height: 100%;
-    display: inline-block;    
+    height: 100%;  
 }
 
 .infoVideo {
     display: flex;
+    height: 90px;
 }
 
 .cositas {
     width: 15%;
-}
-
-.infoVideo h3{
-    margin-left: 7px;
-}
-
-.infoVideo p{
-    margin-left: 7px;
+    padding: 2%;
 }
 
 .imagevideo {
     width: 100%;
     height: auto;
+    border-radius: 8px;
 }
 
 .iconcanal {
