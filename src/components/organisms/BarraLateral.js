@@ -12,15 +12,15 @@ import img3 from "../../images/alec.jpg";
 import img4 from "../../images/meyers.jpg";
 import img5 from "../../images/yelin.jpg";
 
-import home from "../../images/home.png";
-import shorts from "../../images/shorts3.png";
-import suscripcion from "../../images/subscription.png";
-import user from "../../images/usuario.png";
-import historial from "../../images/historia.png";
-import playList from "../../images/lista.png";
-import video from "../../images/jugar.png";
-import clock from "../../images/reloj.png";
-import like from "../../images/boton-me-gusta.png";
+import home from "../../images/home3.png";
+import shorts from "../../images/shorts5.png";
+import suscripcion from "../../images/subscription2.png";
+import user from "../../images/channel.png";
+import historial from "../../images/reloj2.png";
+import playList from "../../images/playList2.png";
+import video from "../../images/goVideo1.png";
+import clock from "../../images/clock2.png";
+import like from "../../images/like2.png";
 import SideBarOption from "../molecules/SideBarOption";
 import SideBarOptionSubs from "../molecules/SideBarOptionSubs";
 
