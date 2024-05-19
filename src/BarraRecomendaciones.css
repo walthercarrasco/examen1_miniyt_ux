@@ -1,0 +1,28 @@
+.filters{
+    position: fixed;
+    left: 250px; /*Espacio de la izquierda*/
+    top: 70px; /*Espacio de arriba*/
+    width: calc(100% - 250px);
+    height: 60px;
+    background: white;
+    /* border-top: 1px solid #dbdbdb; */
+    /* border-bottom: 1px solid #dbdbdb; */
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.filter-options{
+    flex: 0 0 auto;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: #f0f0f0;
+    border: 1px solid #dbdbdb;
+    text-transform: capitalize;
+    margin-right: 10px;
+    color: #242424;
+    font-size: 15px;
+    cursor: pointer;
+}
