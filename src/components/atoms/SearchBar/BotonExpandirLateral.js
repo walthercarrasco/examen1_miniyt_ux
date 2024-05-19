@@ -1,8 +1,6 @@
 import React from "react"
-import '../../jorge.css';
-import {AiOutlineMenu, AiOutlineSearch, AiOutlineBell} from "react-icons/ai"
-import {MdKeyboardVoice} from "react-icons/md"
-import {BsCameraVideo} from "react-icons/bs"
+import '../../../jorge.css';
+import {AiOutlineMenu} from "react-icons/ai"
 
 const BotonExpandirLateral = () => {
     return (

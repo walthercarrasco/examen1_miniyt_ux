@@ -4,9 +4,9 @@ import LeftPartBar from "../molecules/LeftPartBar";
 import MiddlePartBar from "../molecules/MiddlePartBar";
 import RightPartBar from "../molecules/RightPartBar";
 
-const barraBusqueda = () => {
+const BarraBusqueda = () => {
     return(
-        <header className="header">
+        <header className="header" pla>
             <LeftPartBar/>
             <MiddlePartBar/>
             <RightPartBar/>
@@ -14,4 +14,4 @@ const barraBusqueda = () => {
     );
 }
 
-export default barraBusqueda;
+export default BarraBusqueda;

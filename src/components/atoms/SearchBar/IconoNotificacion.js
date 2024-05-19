@@ -1,5 +1,5 @@
 import React from "react";
-import '../../jorge.css';
+import '../../../jorge.css';
 import {AiOutlineBell} from "react-icons/ai"
 
 const IconoNotificacion = () => {

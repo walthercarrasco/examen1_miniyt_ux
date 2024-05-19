@@ -1,7 +1,7 @@
 import React from "react"
 import '../../jorge.css';
-import BotonExpandirLateral from "../atoms/BotonExpandirLateral";
-import LogoNavBar from "../atoms/LogoNavBar";
+import BotonExpandirLateral from "../atoms/SearchBar/BotonExpandirLateral";
+import LogoNavBar from "../atoms/SearchBar/LogoNavBar";
 
 const LeftPartBar = () => {
     return (

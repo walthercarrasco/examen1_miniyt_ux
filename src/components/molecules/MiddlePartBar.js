@@ -1,9 +1,9 @@
 import React from "react"
 import '../../jorge.css';
-import IconoBusqueda1 from "../atoms/IconoBusqueda1";
-import InputBusqueda from "../atoms/InputBusqueda";
-import IconoBusqueda2 from "../atoms/IconoBusqueda2";
-import IconoVoz from "../atoms/IconoVoz";
+import IconoBusqueda1 from "../atoms/SearchBar/IconoBusqueda1";
+import InputBusqueda from "../atoms/SearchBar/InputBusqueda";
+import IconoBusqueda2 from "../atoms/SearchBar/IconoBusqueda2";
+import IconoVoz from "../atoms/SearchBar/IconoVoz";
 
 const MiddlePartBar = () => {
     return (

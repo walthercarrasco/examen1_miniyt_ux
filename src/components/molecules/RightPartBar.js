@@ -1,9 +1,9 @@
 import React from "react"
 import '../../jorge.css';
-import IconoBusqueda3 from "../atoms/IconoBusqueda3";
-import IconoCamara from "../atoms/IconoCamara";
-import IconoNotificacion from "../atoms/IconoNotificacion";
-import ImagenUsuario from "../atoms/ImagenUsuario";
+import IconoBusqueda3 from "../atoms/SearchBar/IconoBusqueda3";
+import IconoCamara from "../atoms/SearchBar/IconoCamara";
+import IconoNotificacion from "../atoms/SearchBar/IconoNotificacion";
+import ImagenUsuario from "../atoms/SearchBar/ImagenUsuario";
 
 const RightPartBar = () => {
     return (

@@ -1,5 +1,5 @@
 import React from "react";
-import '../../jorge.css';
+import '../../../jorge.css';
 
 const InputBusqueda = () => {
     return(

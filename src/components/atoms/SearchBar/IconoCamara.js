@@ -1,5 +1,5 @@
 import React from "react";
-import '../../jorge.css';
+import '../../../jorge.css';
 import {BsCameraVideo} from "react-icons/bs"
 
 const IconoCamara = () => {
