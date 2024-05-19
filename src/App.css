@@ -4,3 +4,12 @@
   display: flex;
   padding: 0;
 }
+
+.Videos {
+  background-color: #141414;
+  margin-top: 120px;
+  margin-left: 250px;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
