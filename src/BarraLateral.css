@@ -1,0 +1,120 @@
+.sidebar{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    /* min-width: 200px; */
+    width: 250px;
+    height: calc(100vh - 60px);
+    background: white;
+    /* padding-right: 10px; */
+    background-color: #141414;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.sidebar::-webkit-scrollbar{
+    background: gray;
+    width: 4px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover{
+    background: red;
+}
+
+.links{
+    display: block;
+    width: 200px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.links img{
+    height: 25px;
+    margin-right: 20px;
+    width: 25px;
+}
+
+.links:hover{
+    background: #3a3a3a;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.seperator{
+    border: none;
+    border-bottom: 1px solid  #474747;
+    /* margin: 20px 0; */
+}
+
+.text-side h3{
+    font-size: 13px;
+    /* margin: 20px 0; */
+    color: #5a5a5a;
+    margin-left: 20px;
+}
+
+.subs {
+    display: block;
+    width: 250px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.subs img{
+    height: 25px;
+    margin-right: 20px;
+    width: 25px;
+    border-radius: 50px;
+}
+
+.subs:hover{
+    background: #3a3a3a;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.names{
+    /* font-size: 13px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px; */
+    display: block;
+    width: 250px;
+    padding: 0px 25px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Responsive */
+@media all and (max-width:900px){
+    .sidebar .subs,
+    .sidebar .seperator,
+    .sidebar .names,
+    .sidebar .Tu{
+        display: none;
+    }
+
+    .sidebar{
+        width: 170px;
+    }
+}
