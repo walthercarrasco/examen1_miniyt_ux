@@ -130,3 +130,7 @@ Pantallas de 500 en adelante
     margin-right: 1%;
     border-radius: 50%;
 }
+
+a{
+    text-decoration: none;
+}

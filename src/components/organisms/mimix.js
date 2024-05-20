@@ -18,11 +18,18 @@ const MiMix = () => {
         "https://i.scdn.co/image/ab6761610000e5eba7bfd7835b5c1eee0c95fa6e"
     ];
 
+    const links = [
+        "https://youtu.be/gSMYGP0TYC4?si=STk-ilc2j_-8ojv7",
+        "https://youtu.be/Bm5iA4Zupek?si=DWUh952hWgB-gQR-",
+        "https://youtu.be/qFLhGq0060w?si=abOJcTzVWFRAufNH",
+        "https://youtu.be/a5uQMwRMHcs?si=RyyBZZGho6cItJPG"
+    ];
+
     const titulos = [
         "UNA VEZ | YHLQMDLG",
-        "Kanye West - Runaway ft. Pusha T",
+        "Runaway ft. Pusha T",
         "I Feel It Coming ft. Daft Punk",
-        "Instant Crush ft. Julian Casablanca"
+        "Instant Crush"
     ];
 
     const nombresCanales = [
@@ -42,7 +49,7 @@ const MiMix = () => {
     return (
         <div className="seccionVideo">
             <h2>Mi Mix</h2>
-            <VerificaPantalla linksVideo={linksVideo} linksCanales={linksCanales} titlev={titulos} nombrecanal={nombresCanales} fecha={fechas} />
+            <VerificaPantalla linksVideo={linksVideo} linksCanales={linksCanales} titlev={titulos} nombrecanal={nombresCanales} fecha={fechas} links={links}/>
         </div>
     );
 }

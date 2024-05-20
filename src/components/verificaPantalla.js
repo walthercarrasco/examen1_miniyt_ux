@@ -1,20 +1,20 @@
 import Video from "./molecules/video";
 
-const VerificaPantalla = ({linksVideo, linksCanales, titlev, nombrecanal, fecha}) => {
+const VerificaPantalla = ({linksVideo, linksCanales, titlev, nombrecanal, fecha, links}) => {
     if (window.innerWidth >= 1100) {
         return (
             <ul id="pantalla1100">
                 <li>
-                    <Video imagen={linksVideo[0]} imagencanal={linksCanales[0]} titlev={titlev[0]} nombrecanal={nombrecanal[0]} fecha={fecha[0]} />
+                    <Video imagen={linksVideo[0]} imagencanal={linksCanales[0]} titlev={titlev[0]} nombrecanal={nombrecanal[0]} fecha={fecha[0]} link={links[0]}/>
                 </li>
                 <li>
-                    <Video imagen={linksVideo[1]} imagencanal={linksCanales[1]} titlev={titlev[1]} nombrecanal={nombrecanal[1]} fecha={fecha[1]} />
+                    <Video imagen={linksVideo[1]} imagencanal={linksCanales[1]} titlev={titlev[1]} nombrecanal={nombrecanal[1]} fecha={fecha[1]} link={links[1]}/>
                 </li>
                 <li>
-                    <Video imagen={linksVideo[2]} imagencanal={linksCanales[2]} titlev={titlev[2]} nombrecanal={nombrecanal[2]} fecha={fecha[2]} />
+                    <Video imagen={linksVideo[2]} imagencanal={linksCanales[2]} titlev={titlev[2]} nombrecanal={nombrecanal[2]} fecha={fecha[2]} link={links[2]}/>
                 </li>
                 <li>
-                    <Video imagen={linksVideo[3]} imagencanal={linksCanales[3]} titlev={titlev[3]} nombrecanal={nombrecanal[3]} fecha={fecha[3]} />
+                    <Video imagen={linksVideo[3]} imagencanal={linksCanales[3]} titlev={titlev[3]} nombrecanal={nombrecanal[3]} fecha={fecha[3]} link={links[3]}/>
                 </li>
             </ul>
         );
@@ -23,13 +23,13 @@ const VerificaPantalla = ({linksVideo, linksCanales, titlev, nombrecanal, fecha}
         return (
             <ul id="pantalla800">
                 <li>
-                    <Video imagen={linksVideo[0]} imagencanal={linksCanales[0]} titlev={titlev[0]} nombrecanal={nombrecanal[0]} fecha={fecha[0]} />
+                    <Video imagen={linksVideo[0]} imagencanal={linksCanales[0]} titlev={titlev[0]} nombrecanal={nombrecanal[0]} fecha={fecha[0]} link={links[0]}/>
                 </li>
                 <li>
-                    <Video imagen={linksVideo[1]} imagencanal={linksCanales[1]} titlev={titlev[1]} nombrecanal={nombrecanal[1]} fecha={fecha[1]} />
+                    <Video imagen={linksVideo[1]} imagencanal={linksCanales[1]} titlev={titlev[1]} nombrecanal={nombrecanal[1]} fecha={fecha[1]} link={links[1]}/>
                 </li>
                 <li>
-                    <Video imagen={linksVideo[2]} imagencanal={linksCanales[2]} titlev={titlev[2]} nombrecanal={nombrecanal[2]} fecha={fecha[2]} />
+                    <Video imagen={linksVideo[2]} imagencanal={linksCanales[2]} titlev={titlev[2]} nombrecanal={nombrecanal[2]} fecha={fecha[2]} link={links[2]}/>
                 </li>             
             </ul>
         );
@@ -38,10 +38,10 @@ const VerificaPantalla = ({linksVideo, linksCanales, titlev, nombrecanal, fecha}
         return (
             <ul id="pantalla500">
                 <li>
-                    <Video imagen={linksVideo[0]} imagencanal={linksCanales[0]} titlev={titlev[0]} nombrecanal={nombrecanal[0]} fecha={fecha[0]} />
+                    <Video imagen={linksVideo[0]} imagencanal={linksCanales[0]} titlev={titlev[0]} nombrecanal={nombrecanal[0]} fecha={fecha[0]} link={links[0]}/>
                 </li>
                 <li>
-                    <Video imagen={linksVideo[1]} imagencanal={linksCanales[1]} titlev={titlev[1]} nombrecanal={nombrecanal[1]} fecha={fecha[1]} />
+                    <Video imagen={linksVideo[1]} imagencanal={linksCanales[1]} titlev={titlev[1]} nombrecanal={nombrecanal[1]} fecha={fecha[1]} link={links[1]}/>
                 </li>
             </ul>
         );

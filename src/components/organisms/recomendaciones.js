@@ -39,10 +39,18 @@ const Recomendaciones = () => {
         "504 M de vistas • hace 4 años"
     ];
 
+    const links = [
+        "https://youtu.be/7pynaH-PPCA?si=a1W0MNPBcWPUd6TI",
+        "https://youtu.be/tCXGJQYZ9JA?si=_5AsZBKiBMZedH8W",
+        "https://youtu.be/kOHB85vDuow?si=N7TltUvijb1Fg122",
+        "https://youtu.be/3ymwOvzhwHs?si=iy_sMecKlfhxLX6Q"
+    ];
+
+
     return (
         <div className="seccionVideo">
             <h2>Recomendaciones</h2>
-            <VerificaPantalla linksVideo={linksVideo} linksCanales={linksCanales} titlev={titulos} nombrecanal={nombresCanales} fecha={fechas} />
+            <VerificaPantalla linksVideo={linksVideo} linksCanales={linksCanales} titlev={titulos} nombrecanal={nombresCanales} fecha={fechas} links={links}/>
         </div>
     );
 }

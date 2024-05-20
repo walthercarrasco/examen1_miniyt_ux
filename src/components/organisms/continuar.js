@@ -18,8 +18,15 @@ const ContinuarViendo = () => {
         "https://img.freepik.com/fotos-premium/fondo-cuadrado-abstracto-azul_7954-23257.jpg"
     ];
 
+    const links = [
+        "https://youtu.be/ro9_laKaPpE?si=N7ADpQpyTQIQ_C8e",
+        "https://youtu.be/fDufg3Xlsko?si=tRKLC6ZpoQB2w2hA",
+        "https://youtu.be/dI3xkL7qUAc?si=9eNbB2Qgd2n2obKk",
+        "https://youtu.be/JDtm4bn_tWk?si=Ua2pVhX6vHcTNrz9"
+    ];
+
     const titulos = [
-        "Sexo Sudor y Calor [Video Oficial]",
+        "Sexo, Sudor y Calor",
         "José José - Preso",
         "Doja Cat - Need to Know",
         "La Salsa de Gojo vs Sukuna"
@@ -42,7 +49,7 @@ const ContinuarViendo = () => {
     return (
         <div className="seccionVideo">
             <h2>Continuar Viendo</h2>
-            <VerificaPantalla linksVideo={linksVideo} linksCanales={linksCanales} titlev={titulos} nombrecanal={nombresCanales} fecha={fechas} />
+            <VerificaPantalla linksVideo={linksVideo} linksCanales={linksCanales} titlev={titulos} nombrecanal={nombresCanales} fecha={fechas} links={links}/>
         </div>
     );
 }
